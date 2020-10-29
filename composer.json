@@ -1,0 +1,22 @@
+{
+    "name": "heitor92/curso-composer-son",
+    "description": "Pacote de exemplo do curso de composer da SON",
+    "type": "library",
+    "require-dev": {
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "heitor",
+            "email": "heisou06@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Heitor\\CursoSON\\": "src"
+        }        
+    },
+    "require": {
+        "monolog/monolog": "^2.1"
+    }
+}
