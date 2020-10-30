@@ -18,5 +18,11 @@
     },
     "require": {
         "monolog/monolog": "^2.1"
+    },
+    "scripts": {
+        "server": "php -S localhost:8080 -t public"
+    },
+    "config": {
+        "process-timeout": 0
     }
 }
